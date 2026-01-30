@@ -31,27 +31,27 @@ namespace digitalbreed {
 			return Mathf.Max(160f, (EditorGUIUtility.currentViewWidth - 60f) * 0.5f);
 		}
 
-	[Serializable]
-	private class PackItem {
-		public string guid;
-		public string name;
-		public bool enabled;
-		public bool requiresStrictMaterialMatching = false;
+		[Serializable]
+		private class PackItem {
+			public string guid;
+			public string name;
+			public bool enabled;
+			public bool requiresStrictMaterialMatching = false;
 
-		public PackItem(string guid, string name) {
-			this.guid = guid;
-			this.name = name;
-			this.enabled = true;
-			this.requiresStrictMaterialMatching = false;
-		}
+			public PackItem(string guid, string name) {
+				this.guid = guid;
+				this.name = name;
+				this.enabled = true;
+				this.requiresStrictMaterialMatching = false;
+			}
 
-		public PackItem(string guid, string name, bool requiresStrictMaterialMatching) {
-			this.guid = guid;
-			this.name = name;
-			this.enabled = true;
-			this.requiresStrictMaterialMatching = requiresStrictMaterialMatching;
+			public PackItem(string guid, string name, bool requiresStrictMaterialMatching) {
+				this.guid = guid;
+				this.name = name;
+				this.enabled = true;
+				this.requiresStrictMaterialMatching = requiresStrictMaterialMatching;
+			}
 		}
-	}
 
 		[Serializable]
 		private class PackData {

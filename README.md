@@ -32,6 +32,14 @@ This is an unofficial community tool created by [@digitalbreed](https://bsky.app
   3. Select "Install package from git URL..."
   4. Enter `https://github.com/digitalbreed/SyntyAnimationPoser.git`
 
+- **Via .unitypackage:**
+
+  1. Download the latest `.unitypackage` release from [releases/latest](https://github.com/digitalbreed/SyntyAnimationPoser/releases/latest)
+  2. Install the `.unitypackage` file into your Unity project, e.g. by
+    - right-clicking in your project, then Import Package -> Custom Package...
+    - dragging and dropping the `.unitypackage` file onto your Unity window
+    - double-clicking the downloaded `.unitypackage` file
+
 - **Manual copying**
 
   1. Copy the `Editor` folder (containing `SyntyAnimationPoserWindow.cs`) to your project
@@ -43,9 +51,7 @@ The tool will appear in the Unity menu bar: **Tools > digitalbreed > Synty Anima
 ### Initial Setup
 
 1. Open the window: **Tools > digitalbreed > Synty Animation Poser**
-2. Configure your animation packs and art packs:
-   - Edit the `DEFAULT_ANIMATION_PACKS` and `DEFAULT_ART_PACKS` arrays in the script with your Unity GUIDs
-   - Or use the checkboxes in the window to enable/disable packs
+2. Configure your animation packs and art packs through the checkboxes
 3. Click **Rescan** (or **Start** will auto-rescan the first time) to scan for assets
 
 ### Placing Characters
