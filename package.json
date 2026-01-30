@@ -1,0 +1,24 @@
+{
+    "name": "com.digitalbreed.syntyanimationposer",
+    "version": "1.0.0",
+    "displayName": "Synty Animation Poser",
+    "unity": "6.0",
+    "description": "An editor tool for Unity that allows you to quickly place Synty Studios POLYGON characters with random animation poses from the ANIMATION series, directly in the Scene View.",
+    "category": "Tools",
+    "keywords": [
+        "tools",
+        "editor",
+        "synty",
+        "polygon",
+        "animation",
+        "poses",
+        "poser",
+        "tool"
+    ],
+    "author": {
+        "name": "digitalbreed",
+        "url": "https://github.com/digitalbreed"
+    },
+    "license": "MIT",
+    "hideInEditor": false
+}

@@ -2,6 +2,8 @@
 
 An editor tool for Unity that allows you to quickly place Synty Studios POLYGON characters with random animation poses from the ANIMATION series, directly in the Scene View.
 
+![Screenshot](./.images/screenshot.jpg)
+
 ## Disclaimer
 
 This is an unofficial community tool created by [@digitalbreed](https://bsky.app/profile/digitalbreed.bsky.social). The author is not affiliated with, sponsored by, endorsed by, or otherwise connected to Synty Studios Limited. This tool is provided as-is for the community's convenience.
