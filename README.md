@@ -21,6 +21,7 @@ This is an unofficial community tool created by [@digitalbreed](https://bsky.app
 
 ## Limitations
 
+- **POLYGON series only**: This tool was created for Synty's POLYGON art pack lineup. It doesn't place Sidekick characters, nor does it use animations made for the Sidekick rig.
 - **No gender specific animations**: This tool doesn't know whether a character is male, female, or anything else. Therefore, animations are picked and assigned randomly. This shouldn't matter for 99.9% of the static poses, though.
 
 ## Installation
